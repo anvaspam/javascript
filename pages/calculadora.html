@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="../css/calculadora.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <script src="../js/calculadora.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Calculadora</h1>
+        <nav class="navbar1">
+            <ul class="nav-list">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="/pages/prediccionesastrologicas.html">Predicciones Astrologicas</a></li>
+                <li><a href="/pages/bucles.html">Bucles</a></li>
+                <li><a href="/pages/password.html">Ejercicios</a></li>
+                <li><a href="/pages/miniejercicios.html">Mini ejercicios</a></li>
+                <li><a href="/pages/operacionesnumeros.html">Operaciones con números</a></li>
+                <li><a href="/pages/ticketsypeso.html">Tickets y peso</a></li>
+                <li><a href="/pages/personaje.html">Personaje</a></li>
+                <li><a href="/pages/mascotas.html">Mascotas</a></li>
+                <li><a href="/pages/zoo.html">Zoo</a></li>
+                <li><a href="/pages/musica.html">Musica</a></li>
+                <li><a href="/pages/arrays.html">Arrays</a></li>
+                <li><a href="/pages/fiesta.html">Fiesta</a></li>
+                <li><a href="/pages/objetos.html">Objetos</a></li>
+                <li><a href="/pages/calculadora.html">Calculadora</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<div class="container">
+
+    <div class="calculadora">
+        <input type="text" id="display" value="0" readonly />
+    <div class="botones">
+        <button onclick="clearDisplay()">C</button>
+        <button onclick="deleteLast()">⌫</button>
+        <button onclick="appendOperator('/')">÷</button>
+        <button onclick="appendOperator('*')">×</button>
+
+        <button onclick="appendNumber('7')">7</button>
+        <button onclick="appendNumber('8')">8</button>
+        <button onclick="appendNumber('9')">9</button>
+        <button onclick="appendOperator('-')">−</button>
+
+        <button onclick="appendNumber('4')">4</button>
+        <button onclick="appendNumber('5')">5</button>
+        <button onclick="appendNumber('6')">6</button>
+        <button onclick="appendOperator('+')">+</button>
+
+        <button onclick="appendNumber('1')">1</button>
+        <button onclick="appendNumber('2')">2</button>
+        <button onclick="appendNumber('3')">3</button>
+        <button onclick="calculateResult()">=</button>
+
+        <button onclick="appendNumber('0')" class="zero">0</button>
+        <button onclick="appendNumber('.')">.</button>
+    </div>
+    
+</div>
+
+</body>
+</html>

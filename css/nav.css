@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+
+.navbar {
+    background-color: #333; /* Fondo oscuro para el nav */
+    padding: 10px 20px;      /* Espaciado interno */
+    position: sticky;        /* Fija el nav en la parte superior cuando haces scroll */
+    top: 0;                  /* Se mantiene en la parte superior de la página */
+    width: 100%;             /* Asegura que ocupe todo el ancho */
+    z-index: 1000;           /* Asegura que el nav esté por encima de otros elementos */
+}
+
+.navbar1 {
+    background-color: #333; /* Fondo oscuro para el nav */
+    padding: 10px 20px;      /* Espaciado interno */
+    position: sticky;        /* Fija el nav en la parte superior cuando haces scroll */
+    top: 0;                  /* Se mantiene en la parte superior de la página */
+    width: 100%;             /* Asegura que ocupe todo el ancho */
+}
+
+.nav-list {
+    list-style-type: none;   /* Elimina los puntos de las listas */
+    margin: 0;               /* Elimina márgenes predeterminados */
+    padding: 0;              /* Elimina relleno */
+    display: flex;           /* Usamos flexbox para colocar los elementos en fila */
+    justify-content: center; /* Centra los elementos horizontalmente */
+
+    flex-wrap: wrap;  /* Permite que los elementos se acomoden en varias filas */
+
+}
+
+.nav-list a {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;            /* Color del texto de los enlaces */
+    text-decoration: none;   /* Elimina el subrayado de los enlaces */
+    font-size: 16px;         /* Tamaño de la fuente */
+    padding: 10px 15px;      /* Relleno alrededor de los enlaces */
+    display: block;          /* Hace que el enlace ocupe toda el área del li */
+    border-radius: 4px;      /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Animación suave al cambiar el color */
+}
+
+.nav-list a:hover {
+    background-color: #575757; /* Fondo más claro al hacer hover */
+    color: #fff;               /* Cambia el color del texto al hacer hover */
+}
+.nav-list a.active {
+    background-color: #4CAF50; /* Color de fondo para el enlace activo */
+    color: white;              /* Color del texto para el enlace activo */
+}

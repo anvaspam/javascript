@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predicciones Astrologicas</title>
+    <link rel="stylesheet" href="/css/nav.css">
+    <link rel="stylesheet" href="/css/predicciones.css">
+    <script src="/js/predicciones.js" defer></script>
+</head>
+<body>
+    <header>
+    <h1>Predicciones Astrologicas</h1>
+        <nav class="navbar1">
+            <ul class="nav-list">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="prediccionesastrologicas.html">Predicciones Astrologicas</a></li>
+                <li><a href="bucles.html">Bucles</a></li>
+                <li><a href="password.html">Ejercicios</a></li>
+                <li><a href="/pages/miniejercicios.html">Mini ejercicios</a></li>
+                <li><a href="/pages/operacionesnumeros.html">Operaciones con números</a></li>
+                <li><a href="/pages/ticketsypeso.html">Tickets y peso</a></li>
+                <li><a href="/pages/personaje.html">Personaje</a></li>
+                <li><a href="/pages/mascotas.html">Mascotas</a></li>
+                <li><a href="/pages/zoo.html">Zoo</a></li>
+                <li><a href="/pages/musica.html">Musica</a></li>
+                <li><a href="/pages/arrays.html">Arrays</a></li>
+                <li><a href="/pages/fiesta.html">Fiesta</a></li>
+                <li><a href="/pages/objetos.html">Objetos</a></li>
+                <li><a href="/pages/calculadora.html">Calculadora</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="izquierda">
+            <h2>Bienvenid@ a la pitonisa Astro-Loca!</h2>
+            <br>
+            <p>Dime tu signo del zodiaco y te diré cómo irá tu semana</p>
+            <br>
+
+            <!-- Input para el signo del zodiaco -->
+            <input type="text" id="signo" placeholder="Introduce tu signo del zodiaco">
+            <button onclick="mostrarPrediccion()">Ver predicción</button>
+
+            <!-- Aquí se mostrarán la predicción y la imagen -->
+            <p id="prediccion"></p>
+
+            <img id="imagenPrediccion" class="imagen" src="" alt="Imagen del horóscopo" style="display: none;">
+
+        </div>
+
+        <div class="derecha">
+        
+
+        <img class="imagendefondo" src="../img/horoscopo.jpeg" alt="Imagen del horóscopo">
+        </div>
+    </div>
+
+
+</body>
+</html>

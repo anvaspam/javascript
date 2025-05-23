@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/nav.css">
+    <script src="js/scripts.js" defer></script>
+    <!-- <script src="bombilla.js" defer></script> -->
+
+</head>
+<body>
+
+<header>
+    <h1>Practicas Javascript</h1>
+    <nav class="navbar1">
+        <ul class="nav-list">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="/pages/prediccionesastrologicas.html">Predicciones Astrologicas</a></li>
+            <li><a href="/pages/bucles.html">Bucles</a></li>
+            <li><a href="/pages/password.html">Ejercicios</a></li>
+            <li><a href="/pages/miniejercicios.html">Mini ejercicios</a></li>
+            <li><a href="/pages/operacionesnumeros.html">Operaciones con números</a></li>
+            <li><a href="/pages/ticketsypeso.html">Tickets y peso</a></li>
+            <li><a href="/pages/personaje.html">Personaje</a></li>
+            <li><a href="/pages/mascotas.html">Mascotas</a></li>
+            <li><a href="/pages/zoo.html">Zoo</a></li>
+            <li><a href="/pages/musica.html">Musica</a></li>
+            <li><a href="/pages/arrays.html">Arrays</a></li>
+            <li><a href="/pages/fiesta.html">Fiesta</a></li>
+            <li><a href="/pages/objetos.html">Objetos</a></li>
+            <li><a href="/pages/calculadora.html">Calculadora</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <div class="container">
+        <h2>ENTRADA DISCOTECA</h2>
+        <p id="enunciadodiscoteca">Introduce tu edad para saber si puedes entrar a la discoteca:</p>
+        <input type="number" id="edad" placeholder="Tu edad">
+        <button onclick="verificarEdad()">Verificar</button>
+    
+        <p id="respuesta"></p>
+
+        <h2>CINCO COLORES</h2>
+
+        <input type="text" id="color" placeholder="Escribe un color...">
+
+    <!-- Botón para mostrar la respuesta -->
+    <button onclick="responderColor()">Ver Respuesta</button>
+
+    <p id="respuesta2"></p>
+
+        <h2>LAMPARA NO ENCIENDE</h2>
+
+        <p id="enunciado">¿Está enchufada la lámpara? (S/N)</p>
+        <input type="text" id="lampara" />
+        <button onclick="diagnosticolampara()">Responder</button>
+        <p id="diagnostico"></p>
+<!-- 
+        <p id="enunciado"></p>
+
+        <input type="text" id="lampara" placeholder="Escribe la respuesta">
+        <input type="text" id="lampara2" placeholder="Escribe la respuesta">
+        <button onclick="diagnosticolampara()">Verificar</button>
+        
+
+        <p id="diagnostico"></p> -->
+
+
+
+    </div>
+</body>
+</html>

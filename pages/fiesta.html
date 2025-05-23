@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiesta</title>
+    <link rel="stylesheet" href="../css/fiesta.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <script src="../js/fiesta.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>🎉 Fiesta este finde 🎉</h1>
+        <nav class="navbar1">
+            <ul class="nav-list">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="/pages/prediccionesastrologicas.html">Predicciones Astrologicas</a></li>
+                <li><a href="/pages/bucles.html">Bucles</a></li>
+                <li><a href="/pages/password.html">Ejercicios</a></li>
+                <li><a href="/pages/miniejercicios.html">Mini ejercicios</a></li>
+                <li><a href="/pages/operacionesnumeros.html">Operaciones con números</a></li>
+                <li><a href="/pages/ticketsypeso.html">Tickets y peso</a></li>
+                <li><a href="/pages/personaje.html">Personaje</a></li>
+                <li><a href="/pages/mascotas.html">Mascotas</a></li>
+                <li><a href="/pages/zoo.html">Zoo</a></li>
+                <li><a href="/pages/musica.html">Musica</a></li>
+                <li><a href="/pages/arrays.html">Arrays</a></li>
+                <li><a href="/pages/fiesta.html">Fiesta</a></li>
+                <li><a href="/pages/objetos.html">Objetos</a></li>
+                <li><a href="/pages/calculadora.html">Calculadora</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <h1>🎉 Fiesta este finde 🎉</h1>
+        
+        <section id="acciones">
+            <button onclick="agregarJuaniYAlex()">📞 Juani y Alex se apuntan</button>
+            <button onclick="agregarMarta()">🎯 Marta se cuela</button>
+            <button onclick="eliminarRoberto()">❌ Roberto no puede venir</button>
+            <button onclick="agregarVecinos()">🏡 Vecinos se apuntan</button>
+        </section>
+    
+        <h2>LISTA DE INVITADOS</h2>
+        <ul id="listaInvitados"></ul>
+    
+        <h2>🔎 Buscar invitado</h2>
+        <input type="text" id="busqueda" placeholder="Escribe un nombre...">
+        <button onclick="buscarInvitado()">Buscar</button>
+        <p id="resultadoBusqueda"></p>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,97 @@
+*{
+    margin: 0%;
+    /* padding: 0%; */
+}
+
+header h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+    margin-bottom: 2%;
+}
+.container{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+body{
+    background-color:#031d2e;
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+}
+
+.container p, .container label, .container #resultado{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+}
+
+.ticket {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(0, 0, 0);
+}
+
+.container2 p, .container2 label, .container2 #resultado{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+}
+
+.container2{
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: 10% 30% 50% 10%;
+    grid-template-areas: 
+        "margeni generador imagenticket margend";
+        height: calc(50vh);
+}
+
+.margeni {
+    grid-area: margeni;
+}
+
+.generador {
+    grid-area: generador;
+}
+
+.imagenticket {
+    grid-area: imagenticket;
+    width: 100%;
+    height: 100%;
+background-image: url(../img/entradaeditable.png);
+background-size: 100% auto;
+/* background-size: cover; */
+background-repeat: no-repeat;
+display: flex;
+}
+
+
+.espacioticket{
+    width: 63%;
+    
+}
+
+.ticket {
+    width: 22%;
+    height: 100%;
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-wrap: wrap;
+}
+
+.espacioticket2{
+    width: 15%;
+    
+}
+
+.margend {
+    grid-area: margend;
+}
+

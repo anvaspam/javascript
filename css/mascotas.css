@@ -1,0 +1,60 @@
+*{
+    margin: 0%;
+}
+
+body{
+    background-color:#127cc3;
+}
+
+
+header h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+    margin-bottom: 2%;
+}
+
+
+input {
+    padding: 10px;
+    margin-top: 2%;
+    margin-left: 2%;
+    font-size: 1rem;
+    width: 250px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.tienda {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#animalImage {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#animalName {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: #333;
+}

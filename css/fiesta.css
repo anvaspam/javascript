@@ -1,0 +1,73 @@
+*{
+    margin: 0%;
+}
+
+body{
+    background-color:#127cc3;
+
+}
+
+
+header h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+    margin-bottom: 2%;
+}
+
+
+.container {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.container h2, .container h1, .container h3{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.container div {
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+}
+
+input {
+    width: 15%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+#resultadoBusqueda {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #2c3e50;
+    text-align: center;
+}
+
+#acciones button {
+    background-color:  #4CAF50;
+}
+
+#acciones button:hover {
+    background-color: #45a049;
+}
+
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #575757;
+}

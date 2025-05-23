@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tickets y peso ideal</title>
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/ticketsypeso.css">
+    <script src="../js/ticketsypeso.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Tickets y peso ideal</h1>
+        <nav class="navbar1">
+            <ul class="nav-list">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="/pages/prediccionesastrologicas.html">Predicciones Astrologicas</a></li>
+                <li><a href="/pages/bucles.html">Bucles</a></li>
+                <li><a href="/pages/password.html">Ejercicios</a></li>
+                <li><a href="/pages/miniejercicios.html">Mini ejercicios</a></li>
+                <li><a href="/pages/operacionesnumeros.html">Operaciones con números</a></li>
+                <li><a href="/pages/ticketsypeso.html">Tickets y peso</a></li>
+                <li><a href="/pages/personaje.html">Personaje</a></li>
+                <li><a href="/pages/mascotas.html">Mascotas</a></li>
+                <li><a href="/pages/zoo.html">Zoo</a></li>
+                <li><a href="/pages/musica.html">Musica</a></li>
+                <li><a href="/pages/arrays.html">Arrays</a></li>
+                <li><a href="/pages/fiesta.html">Fiesta</a></li>
+                <li><a href="/pages/objetos.html">Objetos</a></li>
+                <li><a href="/pages/calculadora.html">Calculadora</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+
+        <h2>Cálculo de Peso Ideal</h2>
+        <br>
+        <p>Introduce tu altura en metros y tu peso en kilogramos para calcular tu peso ideal basado en el IMC.</p>
+    
+        <br>
+        <div>
+            <label for="altura">Altura (metros): </label>
+            <input type="number" id="altura" step="0.01" placeholder="Ej. 1.75">
+        </div>
+        <br>
+        <div>
+            <label for="peso">Peso (kg): </label>
+            <input type="number" id="peso" step="0.1" placeholder="Ej. 70">
+        </div>
+        <br>
+        <button onclick="calcularPesoIdeal()">Calcular Peso Ideal</button>
+    
+        <div id="resultado" class="result"></div>
+
+        <br>
+
+    </div>
+
+    <div class="container2">
+        <div class="margeni"></div>
+        <div class="generador">
+
+        <h2>Rellenar Ticket de Cine</h2>
+        <br>
+    <div>
+        <label for="nombre">Nombre: </label>
+        <input type="text" id="nombre" placeholder="Tu nombre">
+    </div>
+    <br>
+    <div>
+        <label for="fecha">Fecha: </label>
+        <input type="date" id="fecha">
+    </div>
+    <br>
+    <div>
+        <label for="fila">Fila: </label>
+        <input type="text" id="fila" placeholder="Ej. A, B, C...">
+    </div>
+    <br>
+    <div>
+        <label for="asiento">Asiento: </label>
+        <input type="number" id="asiento" placeholder="Ej. 12">
+    </div>
+    <br>
+
+    <button onclick="rellenarTicket()">Enviar</button>
+
+        </div>
+
+    <div class="imagenticket">
+
+        
+        <div class="espacioticket"></div>
+
+    <div class="ticket">
+        <div class="ticket-header">Ticket de Cine</div>
+
+        <br>
+
+        <div class="ticket-body">
+            <div id="ticketNombre">Nombre: </div>
+            <br>
+            <div id="ticketFecha">Fecha: </div>
+            <br>
+            <div id="ticketButaca">Butaca: </div>
+            <br>
+        
+        <div class="ticket-footer">
+            ¡Disfruta de la película!
+        </div>
+
+    </div>
+
+    <div class="espacioticket2"></div>
+
+
+
+    </div>
+    
+    <div class="margend"></div>
+    
+</body>
+</html>

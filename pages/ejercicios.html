@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios</title>
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/ejercicios.css">
+    <script src="../js/ejercicios.js" defer></script>
+
+</head>
+<body>
+    <header>
+        <h1>Ejercicios</h1>
+        <nav class="navbar1">
+            <ul class="nav-list">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="/pages/prediccionesastrologicas.html">Predicciones Astrologicas</a></li>
+                <li><a href="/pages/bucles.html">Bucles</a></li>
+                <li><a href="/pages/ejercicios.html">Ejercicios</a></li>
+                <li><a href="/pages/miniejercicios.html">Mini ejercicios</a></li>
+                <li><a href="/pages/operacionesnumeros.html">Operaciones con números</a></li>
+                <li><a href="/pages/ticketsypeso.html">Tickets y peso</a></li>
+                <li><a href="/pages/personaje.html">Personaje</a></li>
+                <li><a href="/pages/mascotas.html">Mascotas</a></li>
+                <li><a href="/pages/zoo.html">Zoo</a></li>
+                <li><a href="/pages/musica.html">Musica</a></li>
+                <li><a href="/pages/arrays.html">Arrays</a></li>
+                <li><a href="/pages/fiesta.html">Fiesta</a></li>
+                <li><a href="/pages/objetos.html">Objetos</a></li>
+                <li><a href="/pages/calculadora.html">Calculadora</a></li>
+            </ul>
+        </nav>
+    </header>
+<div class="container">
+    
+
+    <h2>Suma de números interactiva</h2>
+    <br>
+    <input type="number" id="number1" placeholder="Número 1">
+    <input type="number" id="number2" placeholder="Número 2">
+    <button onclick="sumadelosnumeros()">Sumar</button>
+    <br>
+    <p id="resultadosuma"></p>
+<br>
+    <h2>Adivina el Número</h2>
+    <br>
+    <p>El objetivo es adivinar el número generado aleatoriamente entre 1 y el 10.</p>
+    <br>
+    <button onclick="adivinarNumero()">Adivinar</button>
+
+    <br>
+<br>
+
+    <h2>Juego de Lanzar los Dados</h2>
+    <br>
+    <p>Haz clic en "Lanzar Dado" para que ambos jugadores tiren los dados.</p>
+    <br>
+    <button class="button" onclick="jugar()">Lanzar Dado</button>
+
+    <br>
+<div class="resultadosdeljuego">
+    <div id="resultadoPlayer1"></div>
+    <br>
+    <div id="resultadoPlayer2"></div>
+    <br>
+    <div id="resultadoFinal"></div>
+</div>
+
+
+</div>
+</body>
+</html>

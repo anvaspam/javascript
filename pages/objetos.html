@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objetos</title>
+    <link rel="stylesheet" href="../css/objetos.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <script src="../js/objetos.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Laboratorio de Objetos en JavaScript</h1>
+        <nav class="navbar1">
+            <ul class="nav-list">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="/pages/prediccionesastrologicas.html">Predicciones Astrologicas</a></li>
+                <li><a href="/pages/bucles.html">Bucles</a></li>
+                <li><a href="/pages/password.html">Ejercicios</a></li>
+                <li><a href="/pages/miniejercicios.html">Mini ejercicios</a></li>
+                <li><a href="/pages/operacionesnumeros.html">Operaciones con números</a></li>
+                <li><a href="/pages/ticketsypeso.html">Tickets y peso</a></li>
+                <li><a href="/pages/personaje.html">Personaje</a></li>
+                <li><a href="/pages/mascotas.html">Mascotas</a></li>
+                <li><a href="/pages/zoo.html">Zoo</a></li>
+                <li><a href="/pages/musica.html">Musica</a></li>
+                <li><a href="/pages/arrays.html">Arrays</a></li>
+                <li><a href="/pages/fiesta.html">Fiesta</a></li>
+                <li><a href="/pages/objetos.html">Objetos</a></li>
+                <li><a href="/pages/calculadora.html">Calculadora</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <h1>Laboratorio de Objetos en JavaScript</h1>
+    
+        <!-- Ejercicio 1 -->
+        <section>
+            <h2>1. Ordenador</h2>
+            <button onclick="mostrarOrdenador()">Mostrar Ordenador</button>
+            <div id="infoOrdenador"></div>
+        </section>
+    
+        <!-- Ejercicio 2 -->
+        <section>
+            <h2>2. Objeto Galletas (CRUD)</h2>
+            <button onclick="crudGalletas()">Ejecutar CRUD</button>
+            <div id="infoGalletas"></div>
+        </section>
+    
+        <!-- Ejercicio 3 -->
+        <section>
+            <h2>3. Concesionario</h2>
+            <label for="propiedad">Selecciona propiedad:</label>
+            <select id="propiedad">
+                <option value="marca">Marca</option>
+                <option value="modelo">Modelo</option>
+                <option value="potencia">Potencia</option>
+                <option value="precio">Precio</option>
+            </select>
+            <button onclick="mostrarCoches()">Mostrar</button>
+            <div id="infoCoches"></div>
+        </section>
+    </div>
+
+</body>
+</html>
